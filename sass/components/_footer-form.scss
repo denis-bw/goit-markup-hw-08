@@ -1,0 +1,119 @@
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-form {
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+.text-footer-form {
+    font-weight: 700;
+    font-size: 14px;
+    display: block;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.box-footer-label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+
+.input-footer-form {
+    width: 450px;
+    height: 50px;
+    padding-left: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    &::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .input-footer-form {
+        max-width: 200px;
+    }
+    //&
+}
+
+.btn-footer-form {
+    width: 200px;
+    height: 50px;
+    padding: 10px 28px;
+}
+
+.box-footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box-btn-form {
+    position: relative;
+}
+
+.icon-form-footer {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 153px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media screen and (min-width: 1200px) {
+    .footer-form {
+        align-items: flex-start;
+        padding-top: 12px;
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: 0;
+    }  
+
+    .box-footer-form {
+        flex-wrap: nowrap;
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+        .icon-form-footer {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            right: 28px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    
+    .input-footer-form {
+        max-width: 358px;
+    }
+}
