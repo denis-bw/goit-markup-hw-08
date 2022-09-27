@@ -56,12 +56,9 @@
     }
 }
 
-@media screen and (max-width: 480px) {
-    .input-footer-form {
-        max-width: 200px;
-    }
-    //&
-}
+
+
+
 
 .btn-footer-form {
     width: 200px;
@@ -115,5 +112,20 @@
     
     .input-footer-form {
         max-width: 358px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .input-footer-form {
+        max-width: 200px;
+    }
+
+    .icon-form-footer {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        right: 28px;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }

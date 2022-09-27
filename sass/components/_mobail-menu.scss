@@ -80,6 +80,13 @@
     color: var(--barand-color);
 }
 
+@media screen and (max-width:479px) {
+    .menu-mobaile-links__link-header-tel {
+        font-size: 24px;
+    }
+    
+}
+
 .menu-mobaile-links__link-header-mail {
     font-weight: 500;
     font-size: 24px;
@@ -95,6 +102,7 @@
 
 .menu-social-networks {
     display: flex;
+    flex-wrap: wrap;
     padding-left: 15px;
     padding-bottom: 48px;   
 }
