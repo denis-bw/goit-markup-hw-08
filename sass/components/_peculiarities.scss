@@ -38,6 +38,12 @@
     border-radius: 4px;
 }
 
+@media screen and(max-width: 768px) {
+    .peculiarities__text-headline {
+        text-align: center;
+    }
+}
+
 .peculiarities__text-headline {
     margin-bottom: 10px;
     font-weight: 700;

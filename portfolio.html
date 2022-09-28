@@ -55,7 +55,7 @@
         </div>
     
         <div class="mobail-menu " data-menu>
-            <div class="container mobail-menu__container">
+            <div class=" mobail-menu__container">
                 <button type="button" class="close-mobile-menu-btn" data-menu-close>
                     <svg class="close-mobile-menu-btn__icon" aria-label="переключатель мобильного меню">
                         <use class="cross" href="./images/svg-sprite/sprite-icon.svg#icon-close_menu"></use>
@@ -63,8 +63,8 @@
                 </button>
     
                 <ul class="list menu-list-mobaile">
-                    <li><a class="link menu-list-mobaile__link current active" href="./index.html">Студія</a></li>
-                    <li><a class="link menu-list-mobaile__link" href="./portfolio.html">Портфоліо</a></li>
+                    <li><a class="link menu-list-mobaile__link" href="./index.html">Студія</a></li>
+                    <li><a class="link menu-list-mobaile__link active" href="./portfolio.html">Портфоліо</a></li>
                     <li><a class="link menu-list-mobaile__link" href="#contacts">Контакти</a></li>
                 </ul>
                 <ul class="list menu-mobaile-links">
@@ -102,7 +102,17 @@
                     <li class="box-content">
                             <a class="box-content-link" href="">
                                 <div class="box-tumb">
-                                    <img class="img-portfolio"  src="./images/portfolio/portfolio-img1.jpg" alt="ноутбук з відкритою сторінкою веб-сайта" >
+                                    <picture>
+                                        <source srcset="./images/portfolio/portfolio-img1.jpg 1x , ./images/portfolio/desktop-p/img-desktop-portfolio_@2x.jpg 2x"
+                                            media="(min-width: 1200px)">
+                                        <source srcset="./images/portfolio/tablet-p/img-tablet-portfolio.jpg 1x , ./images/portfolio/tablet-p/img-tablet-portfolio_@2x.jpg 2x"
+                                            media="(min-width: 768px)">
+                                        <source srcset="./images/portfolio/mobail-p/img-mobail-portfolio.jpg 1x , ./images/portfolio/mobail-p/img-mobail-portfolio@2x.jpg 2x"
+                                            media="(max-width: 767px)">
+                                    
+                                        <img class="img-portfolio" src="./images/portfolio/portfolio-img1.jpg" alt="ноутбук з відкритою сторінкою веб-сайта">
+                                    </picture>
+            
                                     
                                     <div class="overlay-tumb">
                                         <p class="text-tumb">
@@ -121,7 +131,20 @@
                     <li class="box-content">
                         <a class="box-content-link" href="">
                             <div class="box-tumb">
-                            <img class="img-portfolio"  src="./images/portfolio/portfolio-img2.jpg" alt="баскетболісти"  >
+                            <picture>
+                                <source
+                                    srcset="./images/portfolio/portfolio-img2.jpg 1x , ./images/portfolio/desktop-p/img-desktop-portfolio_@2x-1.jpg 2x"
+                                    media="(min-width: 1200px)">
+                                <source
+                                    srcset="./images/portfolio/tablet-p/img-tablet-portfolio-1.jpg 1x , ./images/portfolio/tablet-p/img-tablet-portfolio_@2x-1.jpg 2x"
+                                    media="(min-width: 768px)">
+                                <source
+                                    srcset="./images/portfolio/mobail-p/img-mobail-portfolio-1.jpg 1x , ./images/portfolio/mobail-p/img-mobail-portfolio@2x-1.jpg 2x"
+                                    media="(max-width: 767px)">
+                            
+                                <img class="img-portfolio" src="./images/portfolio/portfolio-img2.jpg" alt="баскетболісти">
+                            </picture>
+                            
                             
                                 <div class="overlay-tumb">
                                     <p class="text-tumb">
@@ -140,7 +163,19 @@
                     <li class="box-content">
                          <a class="box-content-link" href="">
                             <div class="box-tumb">
-                            <img class="img-portfolio"  src="./images/portfolio/portfolio-img3.jpg" alt="лого ресторана Seafood"  >
+                            <source
+                                srcset="./images/portfolio/portfolio-img3.jpg 1x , ./images/portfolio/desktop-p/img-desktop-portfolio_@2x-2.jpg 2x"
+                                media="(min-width: 1200px)">
+                            <source
+                                srcset="./images/portfolio/tablet-p/img-tablet-portfolio-2.jpg 1x , ./images/portfolio/tablet-p/img-tablet-portfolio_@2x-2.jpg 2x"
+                                media="(min-width: 768px)">
+                            <source
+                                srcset="./images/portfolio/mobail-p/img-mobail-portfolio-2.jpg 1x , ./images/portfolio/mobail-p/img-mobail-portfolio@2x-2.jpg 2x"
+                                media="(max-width: 767px)">
+                            
+                            <img class="img-portfolio" src="./images/portfolio/portfolio-img3.jpg" alt="лого ресторана Seafood">
+                            </picture>
+                            
                                
                                 <div class="overlay-tumb">
                                     <p class="text-tumb">
@@ -159,7 +194,19 @@
                     <li class="box-content">
                         <a class="box-content-link" href="">
                             <div class="box-tumb">
-                            <img class="img-portfolio"  src="./images/portfolio/portfolio-img4.jpg" alt="навушники">
+                            <source
+                                srcset="./images/portfolio/portfolio-img4.jpg 1x , ./images/portfolio/desktop-p/img-desktop-portfolio_@2x-3.jpg 2x"
+                                media="(min-width: 1200px)">
+                            <source
+                                srcset="./images/portfolio/tablet-p/img-tablet-portfolio-3.jpg 1x , ./images/portfolio/tablet-p/img-tablet-portfolio_@2x-3.jpg 2x"
+                                media="(min-width: 768px)">
+                            <source
+                                srcset="./images/portfolio/mobail-p/img-mobail-portfolio-3.jpg 1x, ./images/portfolio/mobail-p/img-mobail-portfolio@2x-3.jpg 2x"
+                                media="(max-width: 767px)">
+                            
+                            <img class="img-portfolio" src="./images/portfolio/portfolio-img4.jpg" alt="навушники">
+                            </picture>
+                            
                             
                             <div class="overlay-tumb">
                                 <p class="text-tumb">
@@ -178,7 +225,18 @@
                     <li class="box-content">
                         <a class="box-content-link" href="">
                             <div class="box-tumb">
-                            <img class="img-portfolio"  src="./images/portfolio/portfolio-img5.jpg" alt="дві коробки" >
+                            <source srcset="./images/portfolio/portfolio-img5.jpg 1x , ./images/portfolio/desktop-p/img-desktop-portfolio_@2x-4.jpg 2x"
+                                media="(min-width: 1200px)">
+                            <source
+                                srcset="./images/portfolio/tablet-p/img-tablet-portfolio-4.jpg 1x , ./images/portfolio/tablet-p/img-tablet-portfolio_@2x-4.jpg 2x"
+                                media="(min-width: 768px)">
+                            <source
+                                srcset="./images/portfolio/mobail-p/img-mobail-portfolio-4.jpg 1x, ./images/portfolio/mobail-p/img-mobail-portfolio@2x-4.jpg 2x"
+                                media="(max-width: 767px)">
+                            
+                            <img class="img-portfolio" src="./images/portfolio/portfolio-img5.jpg" alt="дві коробки">
+                            </picture>
+                            
                            
                             <div class="overlay-tumb">
                                 <p class="text-tumb">
@@ -197,7 +255,19 @@
                     <li class="box-content">
                         <a class="box-content-link" href="">
                             <div class="box-tumb">
-                            <img class="img-portfolio"  src="./images/portfolio/portfolio-img6.jpg" alt="екран комп'ютера з відкритим вебсайтом" >
+                            <source
+                                srcset="./images/portfolio/portfolio-img6.jpg 1x , ./images/portfolio/desktop-p/img-desktop-portfolio_@2x-5.jpg 2x"
+                                media="(min-width: 1200px)">
+                            <source
+                                srcset="./images/portfolio/tablet-p/img-tablet-portfolio-5.jpg 1x , ./images/portfolio/tablet-p/img-tablet-portfolio_@2x-5.jpg 2x"
+                                media="(min-width: 768px)">
+                            <source
+                                srcset="./images/portfolio/mobail-p/img-mobail-portfolio-5.jpg 1x, ./images/portfolio/mobail-p/img-mobail-portfolio@2x-5.jpg 2x"
+                                media="(max-width: 767px)">
+                            
+                            <img class="img-portfolio" src="./images/portfolio/portfolio-img6.jpg" alt="екран комп'ютера з відкритим вебсайтом">
+                            </picture>
+                            
                             
                             <div class="overlay-tumb">
                                 <p class="text-tumb">
@@ -217,7 +287,19 @@
                     <li class="box-content">
                         <a class="box-content-link" href="">
                             <div class="box-tumb">
-                            <img class="img-portfolio"  src="./images/portfolio/portfolio-img7.jpg" alt="книга" >
+                            <source
+                                srcset="./images/portfolio/portfolio-img7.jpg 1x , ./images/portfolio/desktop-p/img-desktop-portfolio_@2x-6.jpg 2x"
+                                media="(min-width: 1200px)">
+                            <source
+                                srcset="./images/portfolio/tablet-p/img-tablet-portfolio-6.jpg 1x , ./images/portfolio/tablet-p/img-tablet-portfolio_@2x-6.jpg 2x"
+                                media="(min-width: 768px)">
+                            <source
+                                srcset="./images/portfolio/mobail-p/img-mobail-portfolio-6.jpg 1x, ./images/portfolio/mobail-p/img-mobail-portfolio@2x-6.jpg 2x"
+                                media="(max-width: 767px)">
+                            
+                            <img class="img-portfolio" src="./images/portfolio/portfolio-img7.jpg" alt="книга">
+                            </picture>
+                            
                             
                             <div class="overlay-tumb">
                                 <p class="text-tumb">
@@ -237,7 +319,19 @@
                     <li class="box-content">
                         <a class="box-content-link" href="">
                             <div class="box-tumb">
-                            <img class="img-portfolio"  src="./images/portfolio/portfolio-img8.jpg" alt="бирка" >
+                            <source
+                                srcset="./images/portfolio/portfolio-img8.jpg 1x , ./images/portfolio/desktop-p/img-desktop-portfolio_@2x-7.jpg 2x"
+                                media="(min-width: 1200px)">
+                            <source
+                                srcset="./images/portfolio/tablet-p/img-tablet-portfolio-7.jpg 1x , ./images/portfolio/tablet-p/img-tablet-portfolio_@2x-7.jpg 2x"
+                                media="(min-width: 768px)">
+                            <source
+                                srcset="./images/portfolio/mobail-p/img-mobail-portfolio-7.jpg 1x, ./images/portfolio/mobail-p/img-mobail-portfolio@2x-7.jpg 2x"
+                                media="(max-width: 767px)">
+                            
+                            <img class="img-portfolio" src="./images/portfolio/portfolio-img8.jpg" alt="бирка">
+                            </picture>
+                            
                             
                             <div class="overlay-tumb">
                                 <p class="text-tumb">
@@ -257,7 +351,19 @@
                     <li class="box-content">
                         <a class="box-content-link" href="">
                             <div class="box-tumb">
-                            <img class="img-portfolio"  src="./images/portfolio/portfolio-img9.jpg" alt="ноутбук з відкритим вебсайтом" >
+                            <source
+                                srcset="./images/portfolio/portfolio-img9.jpg 1x , ./images/portfolio/desktop-p/img-desktop-portfolio_@2x-8.jpg 2x"
+                                media="(min-width: 1200px)">
+                            <source
+                                srcset="./images/portfolio/tablet-p/img-tablet-portfolio-8.jpg 1x , ./images/portfolio/tablet-p/img-tablet-portfolio_@2x-8.jpg 2x"
+                                media="(min-width: 768px)">
+                            <source
+                                srcset="./images/portfolio/mobail-p/img-mobail-portfolio-8.jpg 1x, ./images/portfolio/mobail-p/img-mobail-portfolio@2x-8.jpg 2x"
+                                media="(max-width: 767px)">
+                            
+                            <img class="img-portfolio" src="./images/portfolio/portfolio-img9.jpg" alt="ноутбук з відкритим вебсайтом">
+                            </picture>
+                            
                             
                             <div class="overlay-tumb">
                                 <p class="text-tumb">

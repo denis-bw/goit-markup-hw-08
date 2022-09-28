@@ -25,16 +25,17 @@
 
 .btn-list {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
     margin-bottom: 50px;
+    justify-content: flex-start;
+    max-width: 430px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .btn-list {
-        justify-content: flex-start;
-        max-width: 430px;
+        justify-content: center;
+        max-width: 100%;
     }
 }
 

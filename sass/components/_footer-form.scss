@@ -68,6 +68,7 @@
 
 .box-footer-form {
     display: flex;
+
     flex-direction: column;
     gap: 20px;
 }
@@ -117,15 +118,21 @@
 
 @media screen and (max-width: 480px) {
     .input-footer-form {
-        max-width: 200px;
+        width: 100%;
     }
 
+
     .icon-form-footer {
-        position: absolute;
+        position: static;
         width: 24px;
         height: 24px;
-        right: 28px;
-        top: 50%;
-        transform: translateY(-50%);
+        margin-top: 22px;
+    }
+
+    .btn-footer-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
     }
 }

@@ -40,10 +40,6 @@
     .modal-form-text {
         letter-spacing: 0.01em;
     }
-
-    .text-modal-terms {
-        font-size: 14px;
-    }
 }
 
 .modal-svg {
@@ -125,10 +121,12 @@
 }
 
 .text-modal-terms {
+    font-weight: 400;
     font-size: 12px;
     line-height: 1.71;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.03em;
     margin-bottom: 0;
+    color: #757575;
 }
 
 .btn-modal-form {
