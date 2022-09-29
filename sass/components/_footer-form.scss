@@ -68,7 +68,6 @@
 
 .box-footer-form {
     display: flex;
-
     flex-direction: column;
     gap: 20px;
 }
@@ -77,13 +76,24 @@
     position: relative;
 }
 
+
 .icon-form-footer {
-    position: absolute;
+    position: static;
     width: 24px;
     height: 24px;
-    right: 153px;
-    top: 50%;
-    transform: translateY(-50%);
+}
+
+.btn-footer-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+@media screen and (min-width: 480px) {
+    .input-footer-form {
+        width: 450px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -101,38 +111,8 @@
         flex-direction: row;
         gap: 12px;
     }
-
-        .icon-form-footer {
-            position: absolute;
-            width: 24px;
-            height: 24px;
-            right: 28px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
     
     .input-footer-form {
         max-width: 358px;
-    }
-}
-
-@media screen and (min-width: 480px) {
-    .input-footer-form {
-        width: 450px;
-    }
-
-
-    .icon-form-footer {
-        position: static;
-        width: 24px;
-        height: 24px;
-        margin-top: 22px;
-    }
-
-    .btn-footer-form {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 12px;
     }
 }
