@@ -129,6 +129,12 @@
     color: #757575;
 }
 
+@media screen and(min-width: 1200px) {
+    .text-modal-terms {
+            font-size: 14px;
+    }
+}
+
 .btn-modal-form {
     width: 200px;
     height: 50px;
