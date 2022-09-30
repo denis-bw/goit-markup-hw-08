@@ -930,8 +930,8 @@ body {
   width: 450px;
   height: 610px;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top: 20px;
+  transform: translateX(-50%);
   background-color: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -942,6 +942,9 @@ body {
   .modal {
     height: 580px;
     width: 528px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
   .modal-form-text {
     letter-spacing: 0.01em;
